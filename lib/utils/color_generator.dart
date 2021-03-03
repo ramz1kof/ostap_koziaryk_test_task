@@ -7,9 +7,8 @@ import 'package:flutter/material.dart';
 Color randomColorGenerator() {
   var randomNumberGenerator = Random();
   return Color.fromARGB(
-    randomNumberGenerator.nextInt(256),
-    randomNumberGenerator.nextInt(256),
-    randomNumberGenerator.nextInt(256), 
-    randomNumberGenerator.nextInt(256)
-  );
+      randomNumberGenerator.nextInt(256),
+      randomNumberGenerator.nextInt(256),
+      randomNumberGenerator.nextInt(256),
+      randomNumberGenerator.nextInt(256));
 }

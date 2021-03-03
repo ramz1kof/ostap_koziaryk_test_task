@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ostap_koziaryk_test_task/pages/home_page/home_page.dart';
+import 'pages/home_page/home_page.dart';
 
 class TestApp extends StatelessWidget {
   @override
