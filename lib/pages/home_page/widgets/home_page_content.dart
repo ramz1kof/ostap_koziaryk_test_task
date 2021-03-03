@@ -9,6 +9,7 @@ class HomePageContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Material(
+        color: backgroundColor,
         child: Center(
           child: Text(
             'Hey there',
@@ -19,7 +20,6 @@ class HomePageContent extends StatelessWidget {
             ),
           ),
         ),
-        color: backgroundColor,
       ),
     );
   }
